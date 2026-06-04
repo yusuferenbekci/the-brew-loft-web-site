@@ -1,0 +1,270 @@
+body{
+    background-color: #F3E5DC;
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4B3621;
+}
+@media (max-width: 768px) {
+    /*mobil cihaz ayarları burada bulunacak*/
+}
+.logo{
+    width: 130px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.üst-kutu{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    border-bottom: 3px solid #4B3621;
+    gap: 100px;
+    padding: 5px;
+    position: fixed;
+    z-index: 9999;
+}
+.üst-kutu-ic a{
+  text-decoration: none;
+  color: #4B3621;
+}
+.üst-kutu-ic{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.fotograf{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out; 
+    opacity: 1;
+}
+.gizle {
+    opacity: 0;
+}
+.anasayfa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+.alt-kutular{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kutu-sol, .kutu-sag {
+    background-color: rgba(75, 54, 33, 0.5);
+    border-radius: 10px;
+    width: 450px; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+.rezervasyon-butonu{
+    background-color: rgba(75, 54, 33, 0.5);
+    border-radius: 10px;
+    width: 450px; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+.rezervasyon-butonu:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(75, 54, 33, 0.2);
+}
+.rezervasyon-butonu a{
+    text-decoration: none;
+    color: #4B3621;
+}
+.harita{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.satir{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.satirr{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.kucuk-foto{
+    width: 50px;
+    height: auto;
+}
+.kutu{
+    border: 2px solid #4B3621;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px;
+    padding: 2px;
+}
+.kutu p{
+    text-align: left;
+}
+.alt-kutular2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.kutu2{
+    border: 2px solid black;
+    width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.kutu2 p{
+    text-align: left;
+}
+
+.buyuk-foto{
+    width: 100px;
+    height: 100px;
+}
+.kutu-alt {
+    background-color: rgba(75, 54, 33, 0.5);
+    border-radius: 10px;
+    width: 920px; 
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+}
+.uzun-kutu1 {
+    border: 2px solid black;
+    width: 430px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 5px;
+}
+.uzun-kutu2 {
+    border: 2px solid black;
+    width: 880px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 5px;
+}
+.uzun-kutu2 a{
+  text-decoration: none;
+  color: #4B3621;
+}
+.alt-kutular3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 920px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgba(75, 54, 33, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.menu-butonu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 920px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgba(75, 54, 33, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.menu-butonu:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(75, 54, 33, 0.2);
+}
+.fotograf-galeri{
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.buton {
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(75, 54, 33, 0.55); 
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.slider-buton:hover { background-color: #4B3621; }
+.sol { left: 400px; }
+.sag { right: 400px; }
+.bos{
+    width: 200px;
+    height: 100px;
+}
+.alt-fotograf{
+    width: 100%;
+    height: auto;
+}

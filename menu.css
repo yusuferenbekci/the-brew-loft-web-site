@@ -1,0 +1,75 @@
+body{
+    background-color: #F3E5DC;
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4B3621;
+}
+@media (max-width: 768px) {
+    /*mobil cihaz ayarları burada bulunacak*/
+}
+.üst-kutu{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    border-bottom: 3px solid #4B3621;
+    gap: 100px;
+    position: fixed;
+    padding: 5px;
+    position: fixed;
+    z-index: 9999;
+}
+.logo{
+    width: 130px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.üst-kutu-ic a{
+  text-decoration: none;
+  color: #4B3621;
+}
+.üst-kutu-ic{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+.anasayfa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+.kutu{
+    border-bottom: 5px solid #4B3621;
+    width: 430px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; 
+    gap: 75px;
+}
+.satir{
+    display: flex;
+    flex-direction: row;
+}
+.menu-foto{
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.kutu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(75, 54, 33, 0.2);
+}
